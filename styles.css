@@ -52,6 +52,14 @@ html, body {
 
 
 
+
+/* FIX ON NON SCROLLABE HEADER ON MOBILE SCREENS */
+.mdl-layout__container.has-scrolling-header .mdl-layout--fixed-header .mdl-layout__content {
+    overflow: visible !important;
+    overflow-x: visible !important;
+    overflow-y: visible !important;
+}
+
 .mdl-demo .mdl-layout__header-row {
   padding-left: 40px;
 }
