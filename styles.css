@@ -19,6 +19,32 @@ html, body {
   margin: 0;
   padding: 0;
 }
+
+.fullpage-header{
+    height: 100%;
+}
+
+.fullpage-header .header-content{
+    justify-content: center;
+    -webkit-justify-content:center;
+    height: 100%;
+}
+
+.fullpage-header .profile-photo{
+    background: url('images/photos/me.jpg');
+    background-size: cover;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: solid 5px;
+    margin: auto auto;
+}
+
+
+
+
+
+
 .mdl-demo .mdl-layout__header-row {
   padding-left: 40px;
 }
