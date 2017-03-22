@@ -64,29 +64,33 @@
   <body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary fullpage-header" >
-        <div class="header-content mdl-layout__header-row">
+        <div class="mdl-layout__header-row">
+            <span class="mdl-layout-title">Title</span>
+            <div class="mdl-layout-spacer"></div>
+            <nav class="mdl-navigation">
+                <a href="" class="mdl-navigation__link">HOME</a>
+                <a href="" class="mdl-navigation__link">ABOUT</a>
+                <a href="" class="mdl-navigation__link">WORK</a>
+                <a href="" class="mdl-navigation__link">CONTACT</a>
+            </nav>
         </div>
-        <div class="header-content mdl-layout__header-row">
+        <div class=" mdl-layout__header-row">
         </div>
         <div class="header-content">
 
             <span class="mdl-layout__title mdl-typography--text-center">
               <div class="profile-photo"></div>
-              <div class="mdl-typography--display-3 header-content-row">Master Paulo</div>
-              <div class="mdl-typography--headline header-content-row">Developer | Designer | Gamer</div>
-              <div class="mdl-typography--display-2 header-content-row">
-                  <button type="button" name="button" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">John Paulo Bonacua</button>
+              <div class="mdl-typography--display-3 mdl-typography--font-thin header-content-row">Master Paulo</div>
+              <div class="mdl-typography--headline mdl-typography--font-light header-content-row">Developer | Designer | Gamer</div>
+              <div class="mdl-typography--display-2  header-content-row">
+                  <button type="button" name="button" class="mdl-button mdl-js-button mdl-button--raised mdl-color--blue-800 mdl-color-text--white mdl-typography--font-light mdl-typography--display-2">John Paulo Bonacua</button>
 
               </div>
             </span>
 
 
         </div>
-
-
-      </header>
-      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary" >
-
+        <!--
         <div class="section--center mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
           <a href="#overview" class="mdl-layout__tab is-active">About</a>
           <a href="#overview" class="mdl-layout__tab">Meet</a>
@@ -98,8 +102,20 @@
             <span class="visuallyhidden">Add</span>
           </button>
         </div>
-
+        -->
       </header>
+
+      <!--
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">Title</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="">Link</a>
+          <a class="mdl-navigation__link" href="">Link</a>
+          <a class="mdl-navigation__link" href="">Link</a>
+          <a class="mdl-navigation__link" href="">Link</a>
+        </nav>
+      </div>
+      -->
 
       <main class="mdl-layout__content">
         <div class="mdl-layout__tab-panel is-active" id="overview">
@@ -125,6 +141,24 @@
               <li class="mdl-menu__item">Dolor</li>
             </ul>
           </section>
+
+          <section class="section--footer mdl-color--blue-800 mdl-color-text--white mdl-grid">
+            <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+              <div class="section__circle-container__circle mdl-color--accent section__circle--big"></div>
+            </div>
+            <div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+              <h5>Lorem ipsum dolor sit amet</h5>
+              Qui sint ut et qui nisi cupidatat. Reprehenderit nostrud proident officia exercitation anim et pariatur ex.
+            </div>
+            <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+              <div class="section__circle-container__circle mdl-color--accent section__circle--big"></div>
+            </div>
+            <div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+              <h5>Lorem ipsum dolor sit amet</h5>
+              Qui sint ut et qui nisi cupidatat. Reprehenderit nostrud proident officia exercitation anim et pariatur ex.
+            </div>
+          </section>
+
           <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
             <div class="mdl-card mdl-cell mdl-cell--12-col">
               <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
